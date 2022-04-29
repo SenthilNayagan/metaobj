@@ -46,7 +46,7 @@ metaobj:
 ```
 
 
-## How users define domain object?
+## How users define a domain object?
 ```
 ---
 employee:
