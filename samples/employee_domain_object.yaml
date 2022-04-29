@@ -1,0 +1,9 @@
+# Defines "employee" domain object
+---
+employee:
+  employee_name:
+    type: string
+    description: "Employee's name"
+    length: 50
+    privileges: public
+    created_by: "User1"
