@@ -1,6 +1,7 @@
 # metaobj
 Metaobj creates, validates, and initializes objects at runtime. A domain model can now be defined more easily than ever before in an ubiquitous language such as YAML or JSON. Under the hood, metaobj uses object metadata defined in a configuration file such as YAML to create, validate, and intialize an object.
 
+
 ## How Object Metadata looks?
 ```
 ---
@@ -42,4 +43,17 @@ metaobj:
     default: "metaobj"  
   element_modified_on:
     required: false  
+```
+
+
+## How users define domain object?
+```
+---
+employee:
+  employee_name:
+    type: string
+    description: "Employee's name"
+    length: 50
+    privileges: public
+    created_by: "User1"
 ```
