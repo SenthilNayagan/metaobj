@@ -2,6 +2,7 @@
 name = "metaobj"
 version = "0.1.0"
 edition = "2021"
+authors = ["Senthil Nayagan <senthil.nayagan@gmail.com>", "Rajesh Kanna Arunachalam <rajeshkanna_a@yahoo.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
